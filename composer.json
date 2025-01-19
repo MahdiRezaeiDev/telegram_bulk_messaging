@@ -1,0 +1,25 @@
+{
+    "name": "yourname/yourproject",
+    "description": "Project description",
+    "type": "project",
+    "require": {
+        "danog/madelineproto": "^8"
+    },
+    "license": "AGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Daniil Gentili",
+            "email": "daniil@daniil.it"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Your\\Project\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true
+        }
+    }
+}
